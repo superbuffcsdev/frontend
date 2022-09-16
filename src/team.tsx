@@ -54,7 +54,7 @@ const people = [
                     <div className="space-y-2">
                         <div className="space-y-1 text-lg font-medium leading-6">
                         <ul className="flex space-x-5">
-                            <li><h3>{person.name}</h3></li>
+                            <li><h3 className='font-bold text-xl'>{person.name}</h3></li>
                             <li>
                                 <a href={person.twitterUrl} className="text-gray-400 hover:text-gray-500">
                                     <span className="sr-only">Twitter</span>
@@ -64,7 +64,7 @@ const people = [
                                 </a>
                             </li>
                         </ul>
-                        <p className="text-gray-600">{person.role}</p>
+                        <p className="text-gray-600 text-xl">{person.role}</p>
                         </div>
                     </div>
                     </div>
