@@ -23,7 +23,7 @@ const people = [
         twitterUrl: '#',
       },
       {
-        name: 'johanne',
+        name: 'joanne',
         role: 'gmeow',
         imageUrl:
           'https://i.seadn.io/gae/bPDMxJm4OANpPSl-Ja2f7rab27tkKYvyc31xP3gvQjIOLhIu0MM4skKQ13KDW198MKDju9NX64HW70rZZxXvBO0lxQ2rX9Q6zQjo6Q?auto=format&dpr=1&w=500',
@@ -36,7 +36,7 @@ const people = [
       <div className="bg-white">
         <div className="mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:px-12 space-y-12">
             <div className="space-y-5">
-                <h2 className="text-8xl text-center font-bold">THE TEAM</h2>
+                <h2 className="text-6xl text-center font-bold">THE TEAM</h2>
             </div>
             <ul
                 role="list"
