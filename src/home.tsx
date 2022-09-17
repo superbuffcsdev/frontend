@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 export const Home = () => {
     return (
         <div className='bg-white'>
-            <div className='block sm:grid sm:grid-cols-2 space-y-12'>
+            <div className='block sm:grid sm:grid-cols-2 space-y-12 sm:gap-4'>
                 <img className='h-auto' src='./man.png'/>
-                <div className='text-6xl sm:text-9xl text-center sm:text-left'>
+                <div className='text-4xl sm:text-6xl xl:text-9xl text-center sm:text-left mx-2'>
                     <div className='font-bold mb-10'>WE ARE BUYING A NIGHT CLUB</div>
                     <Link to="/about">
                         <button type="button" className="inline-flex items-center rounded-md border border-transparent bg-gray-100 px-4 py-2 text-gray-700 hover:bg-gray-200">
