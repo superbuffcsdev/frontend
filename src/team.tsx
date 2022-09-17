@@ -3,30 +3,30 @@ import React from 'react';
 const people = [
     {
       name: 'satoshi nakamomo',
-      role: 'gmeow',
+      role: 'miscellaneous',
       imageUrl:
-        'https://i.seadn.io/gae/44p3wMtYJxBufympFL3CoYOADVML-su7b6WlhJozJqnLMlayh6Rf4my0nv0GjVnMe2qFSEdzjKrT8gOrrrshgk15OdaF7f3mGWU6?w=500&auto=format',
+        './azuki1.png',
       twitterUrl: 'https://twitter.com/2dwaifusimplord',
     },
     {
         name: 'kushnan',
-        role: 'gmeow',
+        role: 'party',
         imageUrl:
-          'https://i.seadn.io/gae/KL4-XQ-rjARWqGtPiIpM9l12ygeNvDLv0bNeFHv_MGjellQmHiB9GwmrT_Yubf4TZAWoOkXPkbPc2gfnASQYuscY-rNaetUrMs2ELXE?w=500&auto=format',
+          './azuki2.png',
         twitterUrl: 'https://twitter.com/defiluffy',
       },
       {
         name: 'sarah',
-        role: 'gmeow',
+        role: 'market',
         imageUrl:
-          'https://i.seadn.io/gae/3Htr7GrocLXF14YmuVtkT1Ne_eqXkCdtIM4ezeysieMn1E15YmTMD2aIJg6asnQViy1XYB4ePGeuerCTGCIo6JqvYE0S4tCmhPGb?w=500&auto=format',
+          './azuki3.png',
         twitterUrl: '#',
       },
       {
         name: 'joanne',
-        role: 'gmeow',
+        role: 'art',
         imageUrl:
-          'https://i.seadn.io/gae/bPDMxJm4OANpPSl-Ja2f7rab27tkKYvyc31xP3gvQjIOLhIu0MM4skKQ13KDW198MKDju9NX64HW70rZZxXvBO0lxQ2rX9Q6zQjo6Q?auto=format&dpr=1&w=500',
+          './azuki4.png',
         twitterUrl: '#',
       },
   ]
@@ -36,7 +36,7 @@ const people = [
       <div className="bg-white">
         <div className="mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:px-12 space-y-12">
             <div className="space-y-5">
-                <h2 className="text-6xl text-center font-bold">THE TEAM</h2>
+                <h2 className="text-9xl text-center font-bold">THE TEAM</h2>
             </div>
             <ul
                 role="list"
@@ -50,7 +50,7 @@ const people = [
                     <div className="space-y-2">
                         <div className="space-y-1 text-lg font-medium leading-6">
                         <ul className="flex space-x-5">
-                            <li><h3 className='font-bold text-xl'>{person.name}</h3></li>
+                            <li><h3 className='text-3xl'>{person.name}</h3></li>
                         </ul>
                         <p className="text-gray-600 text-xl">{person.role}</p>
                         </div>
