@@ -11,13 +11,13 @@ export const Header = () => {
                     </div>
                     <div className='place-self-end grid grid-cols-2 gap-2'>
                         <a href="https://discord.gg/Y5rB2d9dYF" target="_blank">
-                            <button type="button" className="inline-flex items-center rounded-md border border-transparent bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-200">
-                                <img className='h-6 place-self-center' src='./discord.png'/>
+                            <button type="button" className="inline-flex items-center rounded-md border border-transparent bg-gray-100 px-[1vw] py-[.5vw] text-sm font-medium text-gray-700 hover:bg-gray-200">
+                                <img className='h-[1vw] place-self-center' src='./discord.png'/>
                             </button>
                         </a>
                         <a href="https://twitter.com/heistedd" target="_blank">
-                            <button type="button" className="inline-flex items-center rounded-md border border-transparent bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-200">
-                                <img className='h-6' src='./twitter.png'/>
+                            <button type="button" className="inline-flex items-center rounded-md border border-transparent bg-gray-100 px-[1vw] py-[.5vw] text-sm font-medium text-gray-700 hover:bg-gray-200">
+                                <img className='h-[1vw]' src='./twitter.png'/>
                             </button>
                         </a>
                     </div>
