@@ -6,7 +6,7 @@ export const Header = () => {
         <div className='bg-white'>
             <div className="mx-auto max-w-8xl py-6 px-4 px-8 lg:px-10 space-y-6">
                 <div className='grid grid-cols-2 gap-2'>
-                    <div className='text-left text-6xl font-bold'>
+                    <div className='text-left text-6xl lg:text-[2vw] font-bold'>
                         <Link to="/">HEIST</Link>
                     </div>
                     <div className='place-self-end grid grid-cols-2 gap-2'>
