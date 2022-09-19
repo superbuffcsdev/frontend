@@ -2,29 +2,29 @@ import React from 'react';
 
 const people = [
     {
-      name: 'Zach',
-      role: 'Miscellaneous',
+      name: 'zach',
+      role: 'idk',
       imageUrl:
         './azuki1.png',
       twitterUrl: 'https://twitter.com/2dwaifusimplord',
     },
     {
-        name: 'Kushnan',
-        role: 'Party',
+        name: 'kushnan',
+        role: 'party',
         imageUrl:
           './azuki2.png',
         twitterUrl: 'https://twitter.com/defiluffy',
       },
       {
-        name: 'Sarah',
-        role: 'Market',
+        name: 'sarah',
+        role: 'market',
         imageUrl:
           './azuki3.png',
         twitterUrl: '#',
       },
       {
-        name: 'Joanne',
-        role: 'Art',
+        name: 'joanne',
+        role: 'art',
         imageUrl:
           './azuki4.png',
         twitterUrl: '#',
@@ -44,18 +44,17 @@ const people = [
                 className="max-w-8xl space-y-12 grid grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-4 lg:gap-x-4 xl:gap-x-6">
                 {people.map((person) => (
                 <li key={person.name} className="place-self-center">
-                    <div className="space-y-4">
-                    <div className="aspect-w-3 aspect-h-2">
-                        <a href={person.twitterUrl} target="_blank"><img className="rounded-lg object-cover shadow-lg" src={person.imageUrl} alt="" /></a>
-                    </div>
-                    <div className="space-y-2">
-                        <div className="space-y-1 font-medium leading-6">
-                          <ul className="flex space-x-5">
-                              <li><h3 className='text-gray-800 text-[1vw]'>{person.name}</h3></li>
-                          </ul>
-                          <p className="text-gray-600 text-[.5vw]">{person.role}</p>
-                        </div>
-                    </div>
+                    <div className="space-y-[.5vw]">
+                      <div className="aspect-w-3 aspect-h-2">
+                          <a href={person.twitterUrl} target="_blank"><img className="rounded-lg object-cover shadow-lg" src={person.imageUrl} alt="" /></a>
+                      </div>
+                      <div className="font-medium leading-6">
+                        <ul className="flex">
+                            <li>
+                              <h3 className='text-[#c04035] text-[1vw]'>{person.name}</h3>
+                            </li>
+                        </ul>
+                      </div>
                     </div>
                 </li>
                 ))}
