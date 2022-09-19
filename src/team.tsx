@@ -37,7 +37,7 @@ const people = [
         <div className="mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:px-12 space-y-6">
             <div>
                 <h2 className="text-[4vw] font-bold text-[#c04035]">the team</h2>
-                <div className='text-[1.5vw]'>The core team is born in Los Angeles, CA - a team of human beans with backgrounds in crypto, technology, and gaming working to build a decentralized brand of the future.</div>
+                <div className='text-[1.2vw]'>The core team is born in Los Angeles, CA - a team of human beans with backgrounds in crypto, technology, and gaming working to build a decentralized brand of the future.</div>
             </div>
             <ul
                 role="list"
