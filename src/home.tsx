@@ -8,7 +8,7 @@ export const Home = () => {
             <div className='hidden lg:block space-y-12'>
                 <img className='h-auto fixed w-[44%] left-0' src='./man.png'/>
                 <div className='text-[4vw] fixed w-[44%] inset-x-1/2'>
-                    <div className='font-bold text-[#c04035]'>night club ktown</div>
+                    <div className='font-bold text-[#c04035]'>ktown night club</div>
                     <Link to="/about">
                         <button type="button" className="inline-flex items-center rounded-md border border-transparent bg-gray-100 px-4 py-2 text-gray-700 hover:bg-gray-200">
                             DISCOVER
